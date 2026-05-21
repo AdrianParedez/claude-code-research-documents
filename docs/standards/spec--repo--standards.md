@@ -65,6 +65,7 @@ Approved `doc-type` tags:
 - `audit`
 - `notes`
 - `spec`
+- `template`
 
 Examples:
 
@@ -101,6 +102,7 @@ Allowed top-level folders:
 - `.github/`
 - `.husky/`
 - `docs/`
+- `prompts/`
 - `scripts/`
 
 Allowed root files:
@@ -119,6 +121,10 @@ Current folder layout under `docs/`:
 
 - `papers/` for canonical research papers
 - `standards/` for repository rules and process documents
+
+Current folder layout under `prompts/`:
+
+- `templates/` for reusable prompt templates grounded in the research corpus
 
 Additional folders such as `briefs/`, `audits/`, `notes/`, or `templates/`
 should only be added when they represent a stable document class, not a one-off

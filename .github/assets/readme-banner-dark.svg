@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Claude Code Research banner dark</title>
+  <desc id="desc">A dark banner for the Claude Code Research repository showing three paper cards and a prompt library tag.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1f2937" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="28" fill="url(#bg)" />
+  <rect x="40" y="36" width="1120" height="208" rx="22" fill="#0f172a" stroke="#334155" />
+  <text x="72" y="82" fill="#c08457" font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="18" letter-spacing="2">CLAUDE / CLAUDE CODE</text>
+  <text x="72" y="136" fill="#f8fafc" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700">Claude Code Research</text>
+  <text x="72" y="174" fill="#d1d5db" font-family="Arial, Helvetica, sans-serif" font-size="22">Three papers. Twenty templates. One tidy docs-first repo.</text>
+  <text x="72" y="208" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="18">Prompting, systems analysis, and reusable prompt patterns.</text>
+
+  <g transform="translate(742 48)">
+    <rect x="0" y="0" width="360" height="52" rx="12" fill="#172033" stroke="#475569" />
+    <text x="18" y="24" fill="#f8fafc" font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="15">paper--claude--prompting.md</text>
+    <text x="18" y="40" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">task contracts over prompt tricks</text>
+
+    <rect x="18" y="64" width="360" height="52" rx="12" fill="#1b2436" stroke="#475569" />
+    <text x="36" y="88" fill="#f8fafc" font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="15">paper--claude-code--prompting.md</text>
+    <text x="36" y="104" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">agent briefs, context, autonomy, verification</text>
+
+    <rect x="36" y="128" width="360" height="52" rx="12" fill="#1f2937" stroke="#475569" />
+    <text x="54" y="152" fill="#f8fafc" font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="15">paper--claude-code--systems.md</text>
+    <text x="54" y="168" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">terminal, IDE, browser, automation surfaces</text>
+  </g>
+
+  <rect x="72" y="224" width="300" height="28" rx="14" fill="#c08457" />
+  <text x="92" y="243" fill="#0f172a" font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="14">prompts/templates/ - 20 reusable templates</text>
+</svg>

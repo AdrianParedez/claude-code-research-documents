@@ -4,7 +4,13 @@ import { fileURLToPath } from "node:url";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const ignoredDirs = new Set([".git", "node_modules"]);
-const allowedTopLevelDirs = new Set([".github", ".husky", "docs", "scripts"]);
+const allowedTopLevelDirs = new Set([
+  ".github",
+  ".husky",
+  "docs",
+  "prompts",
+  "scripts",
+]);
 const allowedTopLevelFiles = new Set([
   ".gitignore",
   ".gitmessage.txt",
@@ -24,13 +30,14 @@ const allowedDocsDirs = new Set([
   "standards",
   "templates",
 ]);
+const allowedPromptsDirs = new Set(["templates"]);
 const reservedMarkdownPaths = new Set([
   ".github/pull_request_template.md",
   "CONTRIBUTING.md",
   "README.md",
 ]);
 const docPattern =
-  /^(paper|brief|audit|notes|spec)--[a-z0-9]+(?:-[a-z0-9]+)*--[a-z0-9]+(?:-[a-z0-9]+)*\.md$/;
+  /^(paper|brief|audit|notes|spec|template)--[a-z0-9]+(?:-[a-z0-9]+)*--[a-z0-9]+(?:-[a-z0-9]+)*\.md$/;
 
 const errors = [];
 
@@ -93,6 +100,19 @@ if (fs.existsSync(docsDir)) {
     }
     if (!allowedDocsDirs.has(entry.name)) {
       errors.push(`docs/ subdirectory is not allowed: ${entry.name}/`);
+    }
+  }
+}
+
+const promptsDir = path.join(rootDir, "prompts");
+if (fs.existsSync(promptsDir)) {
+  for (const entry of fs.readdirSync(promptsDir, { withFileTypes: true })) {
+    if (!entry.isDirectory()) {
+      errors.push(`Only subdirectories are allowed directly under prompts/: ${entry.name}`);
+      continue;
+    }
+    if (!allowedPromptsDirs.has(entry.name)) {
+      errors.push(`prompts/ subdirectory is not allowed: ${entry.name}/`);
     }
   }
 }

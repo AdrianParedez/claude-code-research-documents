@@ -7,7 +7,7 @@
   "packageManager": "npm@11.12.1",
   "scripts": {
     "prepare": "husky",
-    "lint:md": "markdownlint README.md CONTRIBUTING.md \"docs/**/*.md\" \".github/**/*.md\"",
+    "lint:md": "markdownlint README.md CONTRIBUTING.md \"docs/**/*.md\" \"prompts/**/*.md\" \".github/**/*.md\"",
     "lint:filenames": "node scripts/check-repo-policy.mjs",
     "lint:commits": "node scripts/verify-commit-rules.mjs",
     "check": "npm run lint:md && npm run lint:filenames && npm run lint:commits"
