@@ -120,6 +120,7 @@ Allowed root files:
 Current folder layout under `docs/`:
 
 - `papers/` for canonical research papers
+- `site/` for the project website and its static preview assets
 - `standards/` for repository rules and process documents
 
 Current folder layout under `prompts/`:

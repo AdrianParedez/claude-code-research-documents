@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Code Research</title>
+    <meta
+      name="description"
+      content="A research folio for three Claude and Claude Code papers plus twenty prompt templates."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700;6..96,800&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="./site.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="masthead">
+        <div class="identity-block">
+          <p class="meta-line">Private research working copy</p>
+          <div class="identity-title-row">
+            <span class="identity-title">Claude Code Research</span>
+            <span class="identity-mark">Catalog 03</span>
+          </div>
+        </div>
+        <nav class="section-nav" aria-label="Primary">
+          <a href="#papers">Papers</a>
+          <a href="#method">Method</a>
+          <a href="#templates">Templates</a>
+          <a href="#canon">Source of truth</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-heading">
+          <div class="hero-panel">
+            <div class="hero-copy">
+              <p class="section-kicker">Revision date: May 21, 2026</p>
+              <h1 id="hero-heading">Claude and Claude Code, treated as systems rather than slogans.</h1>
+              <p class="hero-summary">
+                This repository is built around three research papers and twenty
+                prompt templates. The line through all of it is direct:
+                prompting is a task-contract problem, Claude Code is a governed
+                agent system, and primary-source documentation outranks
+                marketing shorthand.
+              </p>
+
+              <div class="abstract-note">
+                <p class="meta-line">Working claim</p>
+                <p>
+                  This collection reads Claude and Claude Code as technical
+                  systems with evidence hierarchies, operating constraints, and
+                  version-sensitive claims rather than as branding surfaces.
+                </p>
+              </div>
+
+              <div class="hero-actions">
+                <a class="button button-primary" href="#papers">Read the corpus</a>
+                <a class="button button-secondary" href="#canon">Open canonical files</a>
+              </div>
+
+              <ul class="hero-ledger" aria-label="Repository summary">
+                <li>
+                  <span class="ledger-value">3</span>
+                  <span class="ledger-label">papers in corpus</span>
+                </li>
+                <li>
+                  <span class="ledger-value">20</span>
+                  <span class="ledger-label">templates in appendix</span>
+                </li>
+                <li>
+                  <span class="ledger-value">1</span>
+                  <span class="ledger-label">private local preview</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hero-aside">
+              <div class="folio-stack" aria-label="Paper thesis stack">
+                <article class="folio-card folio-card-one">
+                  <p class="meta-line">Manuscript I</p>
+                  <h2>Claude prompting</h2>
+                  <p>Task contracts over wording tricks.</p>
+                </article>
+                <article class="folio-card folio-card-two">
+                  <p class="meta-line">Manuscript II</p>
+                  <h2>Claude Code prompting</h2>
+                  <p>Governed agent briefs over verbose scripts.</p>
+                </article>
+                <article class="folio-card folio-card-three">
+                  <p class="meta-line">Manuscript III</p>
+                  <h2>Claude Code systems</h2>
+                  <p>Operating stack over chatbot wrapper.</p>
+                </article>
+              </div>
+
+              <aside class="proof-panel" aria-labelledby="proof-heading">
+                <p class="section-kicker">Reading apparatus</p>
+                <h2 id="proof-heading">If the site summary and the manuscript disagree, the manuscript wins.</h2>
+                <p>
+                  The Markdown papers in <code>docs/papers/</code> are the
+                  source of truth. This page is a reading room, not a rewrite.
+                </p>
+                <div class="apparatus-grid">
+                  <article class="apparatus-card">
+                    <p class="meta-line">Reference mode</p>
+                    <p>Canonical Markdown manuscripts with direct file paths.</p>
+                  </article>
+                  <article class="apparatus-card">
+                    <p class="meta-line">Date rule</p>
+                    <p>Absolute dates are preferred whenever product drift matters.</p>
+                  </article>
+                  <article class="apparatus-card">
+                    <p class="meta-line">Status</p>
+                    <p>Preview remains local and private until you choose otherwise.</p>
+                  </article>
+                </div>
+              </aside>
+            </div>
+
+            <div class="hero-ribbon" aria-hidden="true">
+              <span>Cataloged</span>
+              <span>Dated</span>
+              <span>Source-grounded</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="papers" class="section-block section-paper" aria-labelledby="papers-heading">
+          <div class="section-heading">
+            <p class="section-kicker">Current papers</p>
+            <h2 id="papers-heading">Three manuscripts, each carrying a distinct technical claim.</h2>
+            <p>
+              The papers share a writing discipline: begin with the practical
+              technical question, define the scope, and keep evaluative claims
+              tethered to their evidence base.
+            </p>
+          </div>
+
+          <div class="paper-sequence">
+            <article class="paper-case">
+              <div class="paper-index">01</div>
+              <div class="paper-body">
+                <div class="paper-topline">
+                  <span>MS-01 / Research review</span>
+                  <span>May 21, 2026</span>
+                </div>
+                <h3>Writing Optimal Prompts for Claude</h3>
+                <p class="paper-citation">
+                  Claude Prompting Research. Research Review | Claude Prompting
+                  | May 21, 2026.
+                </p>
+                <p class="paper-thesis">
+                  Prompt quality is mostly a task-contract problem, not a
+                  wording-trick problem.
+                </p>
+                <dl class="paper-grid-list">
+                  <div>
+                    <dt>Focus</dt>
+                    <dd>Prompt design for the Claude family</dd>
+                  </div>
+                  <div>
+                    <dt>Method</dt>
+                    <dd>Anthropic documentation plus prompting literature</dd>
+                  </div>
+                  <div>
+                    <dt>Audience</dt>
+                    <dd>Beginners, prompt engineers, and researchers</dd>
+                  </div>
+                </dl>
+                <a class="paper-link" href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude--prompting.md">
+                  Open manuscript
+                </a>
+              </div>
+            </article>
+
+            <article class="paper-case paper-case-dark">
+              <div class="paper-index">02</div>
+              <div class="paper-body">
+                <div class="paper-topline">
+                  <span>MS-02 / Research review</span>
+                  <span>May 21, 2026</span>
+                </div>
+                <h3>Optimal Prompting for Claude Code</h3>
+                <p class="paper-citation">
+                  Claude Code Prompting Research. Research Review | Claude Code
+                  Prompting | May 21, 2026.
+                </p>
+                <p class="paper-thesis">
+                  The optimal prompt in Claude Code is a governed agent brief,
+                  not a one-shot chat turn.
+                </p>
+                <dl class="paper-grid-list">
+                  <div>
+                    <dt>Focus</dt>
+                    <dd>Prompt design for tool-using coding workflows</dd>
+                  </div>
+                  <div>
+                    <dt>Method</dt>
+                    <dd>Claude Code docs, Anthropic guidance, agent literature</dd>
+                  </div>
+                  <div>
+                    <dt>Audience</dt>
+                    <dd>Beginners, technical leads, and workflow designers</dd>
+                  </div>
+                </dl>
+                <a class="paper-link" href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude-code--prompting.md">
+                  Open manuscript
+                </a>
+              </div>
+            </article>
+
+            <article class="paper-case">
+              <div class="paper-index">03</div>
+              <div class="paper-body">
+                <div class="paper-topline">
+                  <span>MS-03 / Systems analysis</span>
+                  <span>May 21, 2026</span>
+                </div>
+                <h3>Claude Code: A Deep Research Review</h3>
+                <p class="paper-citation">
+                  Claude Code Systems Research. Deep Research Paper | Claude
+                  Code Systems | May 21, 2026.
+                </p>
+                <p class="paper-thesis">
+                  Claude Code should be understood as an operating stack for
+                  software work.
+                </p>
+                <dl class="paper-grid-list">
+                  <div>
+                    <dt>Focus</dt>
+                    <dd>Architecture, safety, deployment, and governance</dd>
+                  </div>
+                  <div>
+                    <dt>Method</dt>
+                    <dd>Primary-source synthesis of official product materials</dd>
+                  </div>
+                  <div>
+                    <dt>Audience</dt>
+                    <dd>Developers, managers, and platform owners</dd>
+                  </div>
+                </dl>
+                <a class="paper-link" href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude-code--systems.md">
+                  Open manuscript
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="method" class="section-block section-ink" aria-labelledby="method-heading">
+          <div class="section-heading">
+            <p class="section-kicker">Research frame</p>
+            <h2 id="method-heading">The page now behaves more like a finding aid than a software landing page.</h2>
+            <p>
+              The design is more lavish now, but the writing rule is the same:
+              say what is known, say what is inferred, and show the reader why
+              the confidence level differs.
+            </p>
+          </div>
+
+          <div class="method-stage">
+            <div class="method-track">
+              <article class="method-step">
+                <p class="meta-line">Scope</p>
+                <h3>Question-first framing</h3>
+                <p>
+                  Each paper starts from a bounded question: what prompt
+                  architecture works, what system Claude Code has become, and
+                  what evidence can support those claims without hand-waving.
+                </p>
+              </article>
+
+              <article class="method-step">
+                <p class="meta-line">Evidence</p>
+                <h3>Primary sources first</h3>
+                <p>
+                  Current official docs, engineering posts, and product
+                  materials are treated as the strongest practical sources when
+                  the product behavior changes quickly.
+                </p>
+              </article>
+
+              <article class="method-step">
+                <p class="meta-line">Discipline</p>
+                <h3>Date clarity matters</h3>
+                <p>
+                  Exact dates such as February 24, 2025 and March 25, 2026 are
+                  part of the method because relative phrasing hides version
+                  drift in fast-moving tools.
+                </p>
+              </article>
+            </div>
+
+            <aside class="confidence-board">
+              <p class="meta-line">Confidence ladder</p>
+              <h3>Mechanical facts should outrank directional storytelling.</h3>
+              <p class="confidence-intro">
+                This is the papers’ core evidentiary rule translated into the
+                interface itself.
+              </p>
+              <ol class="confidence-list">
+                <li>
+                  <strong>High confidence</strong>
+                  <span>Documented surfaces, settings, permissions, workflows, and architecture.</span>
+                </li>
+                <li>
+                  <strong>Moderate confidence</strong>
+                  <span>Operational effects with first-party evidence and explicit caveats.</span>
+                </li>
+                <li>
+                  <strong>Low confidence</strong>
+                  <span>Superiority claims without matched independent benchmarks.</span>
+                </li>
+              </ol>
+            </aside>
+          </div>
+        </section>
+
+        <section id="templates" class="section-block section-library" aria-labelledby="templates-heading">
+          <div class="library-intro">
+            <p class="section-kicker">Prompt library</p>
+            <h2 id="templates-heading">The template library is arranged like a research appendix.</h2>
+            <p>
+              The template corpus translates the papers into operational work.
+              The same contract keeps recurring: objective, evidence,
+              constraints, verification.
+            </p>
+          </div>
+
+          <div class="library-stage">
+            <aside class="library-feature">
+              <p class="meta-line">Series guide</p>
+              <h3>From research argument to reusable operating brief.</h3>
+              <p>
+                The papers describe how to reason about Claude and Claude Code.
+                The templates turn that reasoning into repeatable work for
+                analysis, planning, implementation, review, and memory.
+              </p>
+              <div class="library-tags">
+                <span>Objective</span>
+                <span>Evidence</span>
+                <span>Constraints</span>
+                <span>Verification</span>
+              </div>
+            </aside>
+
+            <div class="template-columns">
+              <article class="template-column">
+                <div class="template-column-head">
+                  <p class="meta-line">Series A</p>
+                  <h3>Claude</h3>
+                  <p>Analysis, synthesis, and evaluation prompts.</p>
+                </div>
+                <ul class="template-list">
+                  <li><code>template--claude--single-task-brief.md</code></li>
+                  <li><code>template--claude--production-xml-brief.md</code></li>
+                  <li><code>template--claude--few-shot-structured-extraction.md</code></li>
+                  <li><code>template--claude--long-context-analysis.md</code></li>
+                  <li><code>template--claude--citation-grounded-synthesis.md</code></li>
+                  <li><code>template--claude--rubric-based-grading.md</code></li>
+                  <li><code>template--claude--prompt-comparison-eval.md</code></li>
+                  <li><code>template--claude--thinking-verification.md</code></li>
+                  <li><code>template--claude--contradiction-check.md</code></li>
+                  <li><code>template--claude--underspecification-interview.md</code></li>
+                </ul>
+              </article>
+
+              <article class="template-column template-column-dark">
+                <div class="template-column-head">
+                  <p class="meta-line">Series B</p>
+                  <h3>Claude Code</h3>
+                  <p>Planning, implementation, review, and memory workflows.</p>
+                </div>
+                <ul class="template-list">
+                  <li><code>template--claude-code--exploration-plan.md</code></li>
+                  <li><code>template--claude-code--bug-fix-evidence.md</code></li>
+                  <li><code>template--claude-code--pattern-anchored-feature.md</code></li>
+                  <li><code>template--claude-code--behavioral-refactor.md</code></li>
+                  <li><code>template--claude-code--test-gap-analysis.md</code></li>
+                  <li><code>template--claude-code--migration-safety-check.md</code></li>
+                  <li><code>template--claude-code--diff-risk-review.md</code></li>
+                  <li><code>template--claude-code--autonomous-optimization.md</code></li>
+                  <li><code>template--claude-code--subagent-research-brief.md</code></li>
+                  <li><code>template--claude-code--session-memory-review.md</code></li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="canon" class="section-block section-archive" aria-labelledby="canon-heading">
+          <div class="section-heading">
+            <p class="section-kicker">Archive index</p>
+            <h2 id="canon-heading">The website is an index. The repository files still carry the full argument.</h2>
+            <p>
+              When you need direct quotations, references, or the full
+              scope-and-method framing, open the manuscripts and repo documents
+              themselves.
+            </p>
+          </div>
+
+          <div class="archive-grid">
+            <a class="archive-card archive-card-wide" href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude--prompting.md">
+              <span class="meta-line">Box 1 / Folder 1</span>
+              <strong>docs/papers/paper--claude--prompting.md</strong>
+            </a>
+            <a class="archive-card" href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude-code--prompting.md">
+              <span class="meta-line">Box 1 / Folder 2</span>
+              <strong>docs/papers/paper--claude-code--prompting.md</strong>
+            </a>
+            <a class="archive-card" href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude-code--systems.md">
+              <span class="meta-line">Box 1 / Folder 3</span>
+              <strong>docs/papers/paper--claude-code--systems.md</strong>
+            </a>
+            <a class="archive-card" href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/README.md">
+              <span class="meta-line">Guide / Entry point</span>
+              <strong>README.md</strong>
+            </a>
+            <a class="archive-card" href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/standards/spec--repo--standards.md">
+              <span class="meta-line">Rules / Standard</span>
+              <strong>docs/standards/spec--repo--standards.md</strong>
+            </a>
+            <a class="archive-card archive-card-wide" href="https://github.com/AdrianParedez/claude-code-research-documents/tree/main/prompts/templates">
+              <span class="meta-line">Appendix / Template series</span>
+              <strong>prompts/templates/</strong>
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

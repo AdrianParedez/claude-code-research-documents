@@ -27,6 +27,7 @@ const allowedDocsDirs = new Set([
   "briefs",
   "notes",
   "papers",
+  "site",
   "standards",
   "templates",
 ]);

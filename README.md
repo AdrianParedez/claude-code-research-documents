@@ -12,6 +12,9 @@ distilled from them.
 
 ![Papers 3][badge-papers] ![Templates 20][badge-templates]
 
+Project site:
+[GitHub Pages](https://adrianparedez.github.io/claude-code-research-documents/)
+
 ## Current papers
 
 | Paper | Scope |
@@ -48,10 +51,12 @@ The repo stays small on purpose.
 ### Layout
 
 - `docs/papers/` for the canonical papers
+- `docs/site/` for the GitHub Pages website source
 - `prompts/templates/` for 20 reusable templates derived from the papers
 - `docs/standards/` for repo rules and writing constraints
 - `scripts/` for the enforcement logic behind `npm run check`
-- `.husky/` and `.github/` so local and GitHub checks point at the same rules
+- `.husky/` and `.github/` so local checks, repo guardrails, and Pages
+  deployment point at the same repo
 
 ### Checks
 
