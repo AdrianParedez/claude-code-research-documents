@@ -296,14 +296,6 @@ Do not bundle unrelated structure work and content edits just because they were
 done in the same session. If the changes would be easier to review as separate
 pull requests, split them.
 
-## Pending Public-Push Item
-
-One item remains intentionally unresolved until the GitHub username is known:
-
-- add `.github/CODEOWNERS` with `* @<github-username>`
-
-Everything else in the repo can be finalized before the first public push.
-
 ## Recommended Extras
 
 Already included:
@@ -311,8 +303,7 @@ Already included:
 - `CONTRIBUTING.md`
 - `.github/pull_request_template.md`
 - `.gitmessage.txt`
-
-Add `CODEOWNERS` once the responsible GitHub usernames or teams are stable.
+- `.github/CODEOWNERS`
 
 ## Optional Setup
 
