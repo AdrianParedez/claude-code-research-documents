@@ -10,9 +10,7 @@
 Three research papers on Claude and Claude Code, plus 20 prompt templates
 distilled from them.
 
-![Docs only](.github/assets/badge-docs-only.svg) ![Papers 3](.github/assets/badge-papers-3.svg) ![Templates 20](.github/assets/badge-templates-20.svg)
-
-Docs-only repo. No app, no crawler, no benchmark harness, no hidden product.
+![Papers 3][badge-papers] ![Templates 20][badge-templates]
 
 ## Current papers
 
@@ -57,6 +55,8 @@ The repo stays small on purpose.
 
 ### Checks
 
+[![Repo guard][badge-guard]][workflow-guard]
+
 Install once:
 
 ```bash
@@ -81,3 +81,8 @@ verification from one command.
 <!-- markdownlint-enable MD033 -->
 
 [^1]: Files follow the repo's tagged naming scheme so the tree stays readable before you open anything.
+
+[badge-papers]: https://img.shields.io/badge/papers-3-3f7a58?logo=gitbook&logoColor=white
+[badge-templates]: https://img.shields.io/badge/templates-20-1d4ed8?logo=markdown&logoColor=white
+[badge-guard]: https://img.shields.io/github/actions/workflow/status/AdrianParedez/claude-code-research-documents/repo-guard.yml?branch=main&label=repo%20guard&logo=githubactions&logoColor=white
+[workflow-guard]: https://github.com/AdrianParedez/claude-code-research-documents/actions/workflows/repo-guard.yml
