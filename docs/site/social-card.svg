@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Claude Code Research social card</title>
+  <desc id="desc">An archival social preview card for the Claude Code Research site.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#19151a" />
+      <stop offset="50%" stop-color="#231f27" />
+      <stop offset="100%" stop-color="#120f14" />
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4ede2" />
+      <stop offset="100%" stop-color="#eadbc8" />
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a2d2d" />
+      <stop offset="100%" stop-color="#1c1820" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" rx="40" fill="url(#bg)" />
+  <g opacity="0.18">
+    <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200M0 420H1200M0 490H1200M0 560H1200" stroke="#ffffff" stroke-width="1" />
+    <path d="M90 0V630M180 0V630M270 0V630M360 0V630M450 0V630M540 0V630M630 0V630M720 0V630M810 0V630M900 0V630M990 0V630M1080 0V630" stroke="#ffffff" stroke-width="1" />
+  </g>
+
+  <rect x="32" y="24" width="1136" height="74" rx="37" fill="#121318" stroke="#2d2730" />
+  <text x="62" y="52" fill="#b88744" font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" letter-spacing="4">PRIVATE RESEARCH WORKING COPY</text>
+  <text x="62" y="81" fill="#f4ede2" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700">Claude Code Research</text>
+  <rect x="303" y="42" width="88" height="32" rx="16" fill="none" stroke="#5b4d36" />
+  <text x="326" y="63" fill="#ddd1bd" font-family="Arial, Helvetica, sans-serif" font-size="16">Catalog 03</text>
+
+  <rect x="48" y="122" width="640" height="410" rx="28" fill="url(#paper)" stroke="#d3bfa4" />
+  <text x="88" y="168" fill="#9f7a45" font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing="4">REVISION DATE: MAY 21, 2026</text>
+  <text x="88" y="218" fill="#121318" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Claude and</text>
+  <text x="88" y="278" fill="#121318" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Claude Code,</text>
+  <text x="88" y="338" fill="#121318" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">treated as</text>
+  <text x="88" y="398" fill="#121318" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">systems,</text>
+  <text x="88" y="458" fill="#121318" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">not slogans.</text>
+  <rect x="782" y="164" width="336" height="112" rx="24" fill="url(#card)" stroke="#4a3b40" transform="rotate(-6 950 220)" />
+  <text x="826" y="202" fill="#b88744" font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" transform="rotate(-6 826 202)">MANUSCRIPT I</text>
+  <text x="826" y="239" fill="#f4ede2" font-family="Georgia, 'Times New Roman', serif" font-size="31" font-weight="700" transform="rotate(-6 826 239)">Claude prompting</text>
+  <text x="826" y="272" fill="#d5c7b6" font-family="Arial, Helvetica, sans-serif" font-size="20" transform="rotate(-6 826 272)">Task contracts over wording tricks.</text>
+
+  <rect x="814" y="258" width="336" height="112" rx="24" fill="url(#card)" stroke="#4a3b40" transform="rotate(4 982 314)" />
+  <text x="856" y="297" fill="#b88744" font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" transform="rotate(4 856 297)">MANUSCRIPT II</text>
+  <text x="856" y="334" fill="#f4ede2" font-family="Georgia, 'Times New Roman', serif" font-size="31" font-weight="700" transform="rotate(4 856 334)">Claude Code prompting</text>
+  <text x="856" y="367" fill="#d5c7b6" font-family="Arial, Helvetica, sans-serif" font-size="20" transform="rotate(4 856 367)">Governed agent briefs over verbose scripts.</text>
+
+  <rect x="794" y="354" width="350" height="116" rx="24" fill="url(#card)" stroke="#4a3b40" transform="rotate(-2 969 412)" />
+  <text x="838" y="393" fill="#b88744" font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="3" transform="rotate(-2 838 393)">MANUSCRIPT III</text>
+  <text x="838" y="430" fill="#f4ede2" font-family="Georgia, 'Times New Roman', serif" font-size="31" font-weight="700" transform="rotate(-2 838 430)">Claude Code systems</text>
+  <text x="838" y="463" fill="#d5c7b6" font-family="Arial, Helvetica, sans-serif" font-size="20" transform="rotate(-2 838 463)">Operating stack over chatbot wrapper.</text>
+
+  <rect x="54" y="556" width="430" height="42" rx="21" fill="#f1e1c6" stroke="#b88744" transform="rotate(-3 269 577)" />
+  <text x="96" y="584" fill="#1a191b" font-family="Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing="3" transform="rotate(-3 96 584)">3 PAPERS   20 TEMPLATES   SOURCE-GROUNDED</text>
+</svg>
