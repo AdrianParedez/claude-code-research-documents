@@ -1,0 +1,30 @@
+name: Paper feedback
+description: Report an issue or proposed improvement in one of the papers.
+title: "paper: "
+labels:
+  - paper-feedback
+body:
+  - type: dropdown
+    id: paper
+    attributes:
+      label: Paper
+      options:
+        - paper--claude--prompting.md
+        - paper--claude-code--prompting.md
+        - paper--claude-code--systems.md
+    validations:
+      required: true
+  - type: textarea
+    id: section
+    attributes:
+      label: Section or passage
+      description: Point to the exact section, sentence, or claim.
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should change and why?
+    validations:
+      required: true

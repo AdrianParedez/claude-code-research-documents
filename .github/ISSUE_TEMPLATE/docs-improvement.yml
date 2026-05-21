@@ -1,0 +1,28 @@
+name: Docs improvement
+description: Suggest a change to repo docs, standards, or contributor guidance.
+title: "docs: "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: target
+    attributes:
+      label: Target
+      description: Which file or section should change?
+      placeholder: README, contributing guide, standards doc, issue template, and so on.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is unclear, incorrect, inconsistent, or too generic?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What should the document say instead?
+    validations:
+      required: true

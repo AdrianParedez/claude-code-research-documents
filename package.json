@@ -1,0 +1,21 @@
+{
+  "name": "claude-code-research-documents",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Canonical Markdown papers and repo guardrails for Claude and Claude Code research documents.",
+  "license": "Apache-2.0",
+  "packageManager": "npm@11.12.1",
+  "scripts": {
+    "prepare": "husky",
+    "lint:md": "markdownlint README.md CONTRIBUTING.md \"docs/**/*.md\" \".github/**/*.md\"",
+    "lint:filenames": "node scripts/check-repo-policy.mjs",
+    "lint:commits": "node scripts/verify-commit-rules.mjs",
+    "check": "npm run lint:md && npm run lint:filenames && npm run lint:commits"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "21.0.1",
+    "@commitlint/config-conventional": "21.0.1",
+    "husky": "9.1.7",
+    "markdownlint-cli": "0.48.0"
+  }
+}

@@ -1,0 +1,16 @@
+<type>(<scope>): <description>
+
+Why:
+- what changed the decision
+
+What:
+- the concrete edits
+
+Validation:
+- command or manual check
+
+Refs:
+- issue, PR, or note
+
+BREAKING CHANGE:
+- required when the header uses `!`
