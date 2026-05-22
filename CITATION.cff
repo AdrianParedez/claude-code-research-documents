@@ -13,7 +13,7 @@ abstract: >-
 repository-code: https://github.com/AdrianParedez/claude-code-research-documents
 url: https://adrianparedez.github.io/claude-code-research-documents/
 license: Apache-2.0
-version: 0.1.0
+version: 0.2.0
 date-released: 2026-05-22
 keywords:
   - claude
