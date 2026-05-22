@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Frame | Claude Code Research</title>
+    <meta
+      name="description"
+      content="A compact comparison of Claude prompting, Claude Code prompting, and Claude Code systems analysis."
+    >
+    <meta name="theme-color" content="#111215">
+    <link
+      rel="canonical"
+      href="https://adrianparedez.github.io/claude-code-research-documents/comparison.html"
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Claude Code Research">
+    <meta property="og:title" content="Comparison Frame | Claude Code Research">
+    <meta
+      property="og:description"
+      content="A compact comparison of Claude prompting, Claude Code prompting, and Claude Code systems analysis."
+    >
+    <meta
+      property="og:url"
+      content="https://adrianparedez.github.io/claude-code-research-documents/comparison.html"
+    >
+    <meta
+      property="og:image"
+      content="https://adrianparedez.github.io/claude-code-research-documents/social-card.png"
+    >
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta
+      property="og:image:alt"
+      content="Claude Code Research archival folio card showing three papers, twenty templates, and the core research claim."
+    >
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Comparison Frame | Claude Code Research">
+    <meta
+      name="twitter:description"
+      content="A compact comparison of Claude prompting, Claude Code prompting, and Claude Code systems analysis."
+    >
+    <meta
+      name="twitter:image"
+      content="https://adrianparedez.github.io/claude-code-research-documents/social-card.png"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700;6..96,800&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="./site.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="masthead">
+        <div class="identity-block">
+          <p class="meta-line">Public research archive</p>
+          <div class="identity-title-row">
+            <span class="identity-title">Claude Code Research</span>
+            <span class="identity-mark">Comparison frame</span>
+          </div>
+        </div>
+        <nav class="section-nav" aria-label="Primary">
+          <a href="./">Folio</a>
+          <a href="#matrix">Matrix</a>
+          <a href="#reading">Reading order</a>
+          <a href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/notes/notes--repo--comparison-frame.md">Source note</a>
+        </nav>
+      </header>
+
+      <main class="comparison-main">
+        <section class="section-block section-paper comparison-overview" aria-labelledby="comparison-heading">
+          <div class="section-heading comparison-heading">
+            <p class="section-kicker">Comparison artifact</p>
+            <h1 id="comparison-heading">Claude prompting, Claude Code prompting, and Claude Code systems are not the same object.</h1>
+            <p>
+              If those three papers get flattened into one generic
+              prompt-engineering conversation, the actual control surface
+              disappears. This page keeps the distinction compact.
+            </p>
+          </div>
+
+          <div class="comparison-abstract">
+            <p class="meta-line">Executive point</p>
+            <p>
+              Claude prompting optimizes a task contract. Claude Code prompting
+              optimizes a governed agent brief inside a coding loop. Claude Code
+              systems analysis evaluates the operating stack that makes that
+              loop possible.
+            </p>
+          </div>
+
+          <div class="paper-sequence">
+            <article class="paper-case">
+              <div class="paper-index">01</div>
+              <div class="paper-body">
+                <div class="paper-topline">
+                  <span>Object / Model-task contract</span>
+                  <span>Claude prompting</span>
+                </div>
+                <h2>Prompt the model, not the whole operating environment.</h2>
+                <p class="paper-thesis">
+                  The main job is defining the task, output contract, structure,
+                  and evaluation target tightly enough that Claude does not have
+                  to guess what success means.
+                </p>
+                <dl class="paper-grid-list">
+                  <div>
+                    <dt>Optimize</dt>
+                    <dd>Output quality for a defined task</dd>
+                  </div>
+                  <div>
+                    <dt>Control surface</dt>
+                    <dd>Spec, XML, examples, and evals</dd>
+                  </div>
+                  <div>
+                    <dt>Read first</dt>
+                    <dd><a href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude--prompting.md">MS-01 manuscript</a></dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="paper-case paper-case-dark">
+              <div class="paper-index">02</div>
+              <div class="paper-body">
+                <div class="paper-topline">
+                  <span>Object / Agent brief</span>
+                  <span>Claude Code prompting</span>
+                </div>
+                <h2>Prompt the agent inside the repo loop.</h2>
+                <p class="paper-thesis">
+                  The main job is defining outcome, evidence, autonomy,
+                  constraints, verification, and handoff while leaving the agent
+                  room to inspect, choose tools, and prove completion.
+                </p>
+                <dl class="paper-grid-list">
+                  <div>
+                    <dt>Optimize</dt>
+                    <dd>Bounded coding-task completion</dd>
+                  </div>
+                  <div>
+                    <dt>Control surface</dt>
+                    <dd>Brief, context load, permissions, and proof of done</dd>
+                  </div>
+                  <div>
+                    <dt>Read first</dt>
+                    <dd><a href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude-code--prompting.md">MS-02 manuscript</a></dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="paper-case">
+              <div class="paper-index">03</div>
+              <div class="paper-body">
+                <div class="paper-topline">
+                  <span>Object / Operating stack</span>
+                  <span>Claude Code systems</span>
+                </div>
+                <h2>Evaluate the stack, not only the live prompt.</h2>
+                <p class="paper-thesis">
+                  The main job is deciding what Claude Code has become as a
+                  system: tool harness, context manager, permissions layer,
+                  memory layer, extensibility surface, and deployment model.
+                </p>
+                <dl class="paper-grid-list">
+                  <div>
+                    <dt>Optimize</dt>
+                    <dd>Architecture, governance, and operating fit</dd>
+                  </div>
+                  <div>
+                    <dt>Control surface</dt>
+                    <dd>Tools, memory, skills, permissions, and surfaces</dd>
+                  </div>
+                  <div>
+                    <dt>Read first</dt>
+                    <dd><a href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude-code--systems.md">MS-03 manuscript</a></dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="matrix" class="section-block section-ink" aria-labelledby="matrix-heading">
+          <div class="section-heading">
+            <p class="section-kicker">Matrix</p>
+            <h2 id="matrix-heading">Different layer, different benchmark.</h2>
+            <p>
+              Each paper answers a different bounded question. That is why the
+              repo should not be read as one merged prompt-engineering document.
+            </p>
+          </div>
+
+          <div class="comparison-table-wrap">
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th scope="col">Question</th>
+                  <th scope="col">Claude prompting</th>
+                  <th scope="col">Claude Code prompting</th>
+                  <th scope="col">Claude Code systems</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Object under analysis</th>
+                  <td>Claude as a model family responding to a defined task</td>
+                  <td>Claude Code as a coding agent receiving a live work brief</td>
+                  <td>Claude Code as a product and operating environment</td>
+                </tr>
+                <tr>
+                  <th scope="row">Main question</th>
+                  <td>What prompt architecture most reliably improves task performance for Claude?</td>
+                  <td>What prompt architecture most reliably improves bounded coding-task completion in Claude Code?</td>
+                  <td>What should Claude Code be understood as: wrapper, tool, or governed agent system?</td>
+                </tr>
+                <tr>
+                  <th scope="row">Main control surface</th>
+                  <td>Task definition, output contract, XML structure, examples, and evals</td>
+                  <td>Outcome, evidence, autonomy, constraints, verification, and handoff</td>
+                  <td>Tools, permissions, context management, memory, skills, subagents, surfaces, and deployment model</td>
+                </tr>
+                <tr>
+                  <th scope="row">Common mistake</th>
+                  <td>Treating good prompts like magic phrasing</td>
+                  <td>Treating the environment like a one-shot chat box</td>
+                  <td>Treating Claude Code like a thin CLI around chat</td>
+                </tr>
+                <tr>
+                  <th scope="row">Primary output</th>
+                  <td>Task-contract framework plus Claude templates</td>
+                  <td>Governed agent-brief framework plus Claude Code templates</td>
+                  <td>Systems frame for evaluation, rollout, and governance</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="reading" class="section-block section-archive" aria-labelledby="reading-heading">
+          <div class="section-heading">
+            <p class="section-kicker">Reading order</p>
+            <h2 id="reading-heading">Open the manuscript that matches the problem you actually have.</h2>
+            <p>
+              The shortest useful rule is simple: model-task problem, agent-brief
+              problem, or operating-stack problem.
+            </p>
+          </div>
+
+          <div class="archive-grid">
+            <a class="archive-card" href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude--prompting.md">
+              <span class="meta-line">Start here / Direct Claude task</span>
+              <strong>docs/papers/paper--claude--prompting.md</strong>
+            </a>
+            <a class="archive-card" href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude-code--prompting.md">
+              <span class="meta-line">Start here / Coding agent brief</span>
+              <strong>docs/papers/paper--claude-code--prompting.md</strong>
+            </a>
+            <a class="archive-card" href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/papers/paper--claude-code--systems.md">
+              <span class="meta-line">Start here / Operating stack</span>
+              <strong>docs/papers/paper--claude-code--systems.md</strong>
+            </a>
+          </div>
+
+          <p class="comparison-source-note">
+            Source note:
+            <a href="https://github.com/AdrianParedez/claude-code-research-documents/blob/main/docs/notes/notes--repo--comparison-frame.md">docs/notes/notes--repo--comparison-frame.md</a>.
+            If the page summary and the Markdown note disagree, the Markdown note wins.
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

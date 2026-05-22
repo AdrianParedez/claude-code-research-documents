@@ -15,7 +15,8 @@ into a discoverable public asset and using it to increase traffic to the
 
 ## Executive Point
 
-The GitHub-native setup phase is mostly done. The traffic phase is not.
+The GitHub-native setup phase is mostly done. The first traffic wave is now
+live, but it is still too early to measure.
 
 As of **May 22, 2026**, the repo now has a live Pages site, homepage URL,
 custom repository social preview, public profile README, pinned flagship repo,
@@ -23,17 +24,18 @@ filled profile fields, Discussions, `CITATION.cff`, a `Start here` guide, a
 paper-to-template map, and a current public release in `v0.2.0`.
 
 That means the bottleneck has moved. The main problem is no longer repo
-packaging. It is distribution and feedback. The repository still has zero
-stars, zero watchers, zero forks, and zero recorded 14-day views. The next job
-is to turn the three papers into repeated outbound artifacts that send people
-back here, then measure what actually gets clicked.
+packaging. It is distribution feedback. The repository still has zero stars,
+zero watchers, zero forks, and zero recorded 14-day views, but the first
+outbound package now exists: one comparison artifact plus three public
+paper-derived Discussions. The next job is to measure what actually gets
+clicked, then iterate from real referrers and real paths instead of guesswork.
 
 ## Roadmap Status
 
 - **Phase 1: GitHub-native discovery surface:** complete enough
-- **Phase 2: distribution and referral generation:** not started in earnest
-- **Phase 3: traffic review and iteration:** not started because there is no
-  traffic signal yet
+- **Phase 2: distribution and referral generation:** started and publicly live
+- **Phase 3: traffic review and iteration:** pending the first measurable
+  traffic signal
 
 This matters because it changes what should count as progress. More polish on
 already-finished repo metadata is low leverage now. Distribution is the only
@@ -52,6 +54,8 @@ part likely to change the graph.
   `claude`, `claude-code`, `prompt-engineering`, `prompt-templates`,
   `research-papers`
 - **Discussions:** enabled
+- **Comparison artifact:** live at `/comparison.html`
+- **Public Discussions:** three `Show and tell` posts live
 - **Releases:** `v0.2.0` latest, `v0.1.0` earlier checkpoint
 - **14-day traffic:** 0 views, 0 uniques
 - **Popular paths:** none yet
@@ -69,11 +73,12 @@ The roadmap has changed because the bottleneck has changed.
    when someone lands on it because the public surfaces are coherent.
 2. **Profile conversion loop:** materially stronger. The profile now tells a
    cleaner story and points people back to the repo and Pages site.
-3. **Content distribution loop:** still missing. The papers have not yet been
-   turned into repeated outward-facing posts, comparison artifacts, or
-   discussions that create visits in the first place.
+3. **Content distribution loop:** now initialized. The papers have been turned
+   into a comparison artifact plus three outward-facing GitHub Discussions, but
+   there is still no measurement signal yet.
 
-So the current problem is simple: there is still no inbound motion.
+So the current problem is narrower now: the first outbound motion exists, but
+there is still no traffic signal to learn from.
 
 ## Completed Foundation Work
 
@@ -97,16 +102,30 @@ getting people to the shelf.
 
 | Priority | Move | Why It Matters | Status |
 | --- | --- | --- | --- |
-| High | Publish one easy-to-share comparison artifact | You need a visual or compact comparative object that travels better than a repo link alone. | Remaining |
-| High | Publish three derivative posts sourced from the papers | The papers are the traffic engine, but only if their claims get repackaged into click-worthy posts. | Remaining |
+| High | Publish one easy-to-share comparison artifact | You need a visual or compact comparative object that travels better than a repo link alone. | Completed |
+| High | Publish three derivative posts sourced from the papers | The papers are the traffic engine, but only if their claims get repackaged into click-worthy posts. | Completed |
 | High | Review traffic, referrers, and popular paths after the first outbound wave | Without measurement, there is no way to tell whether the hooks or channels are working. | Remaining |
-| Medium | Open one public Discussion that frames the repo as a living research artifact | Gives new visitors a visible conversational entry point once traffic arrives. | Optional |
-| Medium | Add one compact comparison matrix or top-5 template entry point | Improves conversion after a visitor lands, but it is secondary to getting visits at all. | Optional |
+| Medium | Open one public Discussion that frames the repo as a living research artifact | Gives new visitors a visible conversational entry point once traffic arrives. | Completed |
+| Medium | Add one compact comparison matrix or top-5 template entry point | Improves conversion after a visitor lands, but it is secondary to getting visits at all. | Completed |
+
+## First Outbound Wave Published
+
+The repository now has four outward-facing traffic objects tied directly to the
+papers:
+
+- comparison artifact:
+  [comparison.html](https://adrianparedez.github.io/claude-code-research-documents/comparison.html)
+- Discussion 1:
+  [Claude prompting is mostly a task-contract problem, not a wording-trick problem](https://github.com/AdrianParedez/claude-code-research-documents/discussions/1)
+- Discussion 2:
+  [Claude Code works more like an operating stack than a thin CLI around chat](https://github.com/AdrianParedez/claude-code-research-documents/discussions/2)
+- Discussion 3:
+  [The optimal Claude Code prompt is a governed agent brief, not a verbose script](https://github.com/AdrianParedez/claude-code-research-documents/discussions/3)
 
 ## What To Publish First
 
-The best next artifacts are the ones already implied by the repo's strongest
-claims.
+The first artifact set is now live. These entries remain useful because they
+define what should be repackaged again in later channels.
 
 ### Artifact 1: Claude vs. Claude Code vs. agent-runtime comparison
 
@@ -171,11 +190,10 @@ The most reusable outward format is still:
 
 | Window | Goal |
 | --- | --- |
-| Days 1-3 | Create the first shareable comparison artifact and decide the landing URL it should point to |
-| Days 4-10 | Publish three derivative posts, one from each paper's strongest claim |
-| Days 11-17 | Turn the best-performing post into a second format, such as a comparison image, short thread, or release-style GitHub Discussion |
-| Days 18-24 | Review traffic, popular paths, and referring sites to see which hook actually pulled visits |
-| Days 25-30 | Double down on the best-performing claim and publish one follow-up artifact instead of changing the whole direction blindly |
+| Days 1-7 | Let the first outbound wave collect enough signal to produce real traffic data |
+| Days 8-14 | Review traffic, popular paths, and referring sites to see which hook actually pulled visits |
+| Days 15-21 | Turn the best-performing discussion into a second format, such as a comparison image, short thread, or release-style repost |
+| Days 22-30 | Double down on the best-performing claim and publish one follow-up artifact instead of changing the whole direction blindly |
 
 If traffic is still flat after that first wave, the issue is probably channel
 selection or weak hooks, not repo presentation.

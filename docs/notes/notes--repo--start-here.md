@@ -9,6 +9,12 @@ papers and twenty templates blind.
 
 ## Fastest Paths
 
+### If you want the shortest possible distinction among the three papers
+
+Open [notes--repo--comparison-frame.md](notes--repo--comparison-frame.md)
+first. It gives the compact matrix for deciding whether your actual problem is
+Claude prompting, Claude Code prompting, or Claude Code systems evaluation.
+
 ### If you want the core argument about Claude prompting
 
 1. Read [paper--claude--prompting.md](../papers/paper--claude--prompting.md).
@@ -64,6 +70,9 @@ operating environment rather than only as a prompt surface.
 Use the project site:
 [adrianparedez.github.io/claude-code-research-documents](https://adrianparedez.github.io/claude-code-research-documents/).
 
+If you want the short comparison page rather than the full folio, use:
+[adrianparedez.github.io/claude-code-research-documents/comparison.html](https://adrianparedez.github.io/claude-code-research-documents/comparison.html).
+
 ## Suggested Reading Order
 
 1. [paper--claude--prompting.md](../papers/paper--claude--prompting.md)
@@ -75,5 +84,6 @@ prompting, to the larger Claude Code operating stack.
 
 ## Two Supporting Files Worth Keeping Open
 
+- [notes--repo--comparison-frame.md](notes--repo--comparison-frame.md)
 - [notes--repo--paper-template-map.md](notes--repo--paper-template-map.md)
 - [CITATION.cff](../../CITATION.cff)

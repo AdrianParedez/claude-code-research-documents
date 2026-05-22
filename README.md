@@ -22,8 +22,15 @@ If you are new to the repo, begin with
 the shortest reading path based on whether you want the core argument, reusable
 prompts, or the full Claude Code systems view.
 
+If you want the shortest distinction among the three papers before reading the
+full corpus, open
+[notes--repo--comparison-frame.md](docs/notes/notes--repo--comparison-frame.md)
+or the public comparison page at
+[comparison.html](https://adrianparedez.github.io/claude-code-research-documents/comparison.html).
+
 Two supporting files matter right away:
 
+- [notes--repo--comparison-frame.md](docs/notes/notes--repo--comparison-frame.md)
 - [notes--repo--paper-template-map.md](docs/notes/notes--repo--paper-template-map.md)
 - [CITATION.cff](CITATION.cff)
 
