@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: >-
+  If you use this repository in research, teaching, or derived prompt work,
+  please cite it using this metadata.
+title: Claude Code Research Documents
+type: software
+authors:
+  - family-names: Paredez
+    given-names: Adrian
+abstract: >-
+  Three research papers on Claude and Claude Code, plus twenty prompt templates
+  distilled from them.
+repository-code: https://github.com/AdrianParedez/claude-code-research-documents
+url: https://adrianparedez.github.io/claude-code-research-documents/
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-05-22
+keywords:
+  - claude
+  - claude-code
+  - prompt-engineering
+  - agentic-coding
+  - prompt-templates

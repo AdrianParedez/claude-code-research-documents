@@ -15,6 +15,18 @@ distilled from them.
 Project site:
 [GitHub Pages](https://adrianparedez.github.io/claude-code-research-documents/)
 
+## Start here
+
+If you are new to the repo, begin with
+[notes--repo--start-here.md](docs/notes/notes--repo--start-here.md). It gives
+the shortest reading path based on whether you want the core argument, reusable
+prompts, or the full Claude Code systems view.
+
+Two supporting files matter right away:
+
+- [notes--repo--paper-template-map.md](docs/notes/notes--repo--paper-template-map.md)
+- [CITATION.cff](CITATION.cff)
+
 ## Current papers
 
 | Paper | Scope |
@@ -50,6 +62,8 @@ The repo stays small on purpose.
 
 ### Layout
 
+- `docs/briefs/` for strategy briefs, roadmaps, and planning documents
+- `docs/notes/` for onboarding guides and paper-to-template crosswalks
 - `docs/papers/` for the canonical papers
 - `docs/site/` for the GitHub Pages website source
 - `prompts/templates/` for 20 reusable templates derived from the papers

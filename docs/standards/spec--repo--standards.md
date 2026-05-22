@@ -1,6 +1,6 @@
 # Repo Standards
 
-Last reviewed: 2026-05-21
+Last reviewed: 2026-05-22
 
 This repo is easiest to work with when the tree explains itself before you open
 anything. These rules exist to make that true.
@@ -108,6 +108,7 @@ Allowed top-level folders:
 Allowed root files:
 
 - `README.md`
+- `CITATION.cff`
 - `CONTRIBUTING.md`
 - `LICENSE`
 - `.gitignore`
@@ -119,6 +120,8 @@ Allowed root files:
 
 Current folder layout under `docs/`:
 
+- `briefs/` for strategy briefs, roadmaps, and planning documents
+- `notes/` for onboarding guides, reading paths, and crosswalk documents
 - `papers/` for canonical research papers
 - `site/` for the project website and its static preview assets
 - `standards/` for repository rules and process documents

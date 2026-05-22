@@ -16,6 +16,7 @@ const allowedTopLevelFiles = new Set([
   ".gitmessage.txt",
   ".gitattributes",
   ".markdownlint.json",
+  "CITATION.cff",
   "CONTRIBUTING.md",
   "LICENSE",
   "README.md",
